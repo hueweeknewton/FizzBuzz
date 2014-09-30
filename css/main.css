@@ -1,0 +1,69 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,700italic,400,300);
+
+body {
+	background: #e3e3e3;
+	text-align: center;
+	margin: 0 auto;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	color: #363636;
+}
+h1 {
+	font-weight: 700;
+	font-style: italic;
+	text-decoration: underline;
+}
+h3 {
+	font-weight: 300;
+	font-style: italic;
+	font-size: .75em;
+	line-height: 0px;
+}
+p {
+	line-height: 5px;
+}
+.italic {
+	font-size: 1.25em;
+	font-style: italic;
+	font-weight: 300;
+	color: #e17f7f;
+}
+.fizz {
+	font-size: 1.25em;
+	font-weight: 300;
+	color:#793a3a;
+	
+}
+.buzz {
+	font-size: 1.25em;
+	font-weight: 300;
+	color:#644949;
+	
+}
+button {
+	width: 200px;
+	height: 25px;
+	font-size: .85em;
+	cursor: pointer;
+	margin-top: 7px;
+}
+#errmsg {
+ 	font-size: .75em;
+	color: #b20000;
+	font-style: italic;
+	text-decoration: underline;
+	font-weight: 700;
+	display: none;
+}
+#refreshMe {
+	position: absolute;
+	top:114px;
+	left:492px;
+	font-size: .85em;
+	color: #5e5e5e;
+	font-style: italic;
+	padding: 4px 4px;
+	border: #363636 1px solid; 
+	display:none; 
+}
